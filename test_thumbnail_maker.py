@@ -3,7 +3,8 @@
 # from thumbnail_queue import ThumbnailMakerService
 # from thumnbnail_multiprocess import ThumbnailMakerService
 # from thumnbnail_multipro_queue import ThumbnailMakerService
-from thumnbnail_multipro_manager import ThumbnailMakerService
+# from thumnbnail_multipro_manager import ThumbnailMakerService
+from thumnbnail_asyncio import ThumbnailMakerService
 
 IMG_URLS = \
     ['https://dl.dropboxusercontent.com/s/2fu69d8lfesbhru/pexels-photo-48603.jpeg',
