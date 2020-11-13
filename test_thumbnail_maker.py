@@ -1,5 +1,6 @@
 # from thumbnail_maker import ThumbnailMakerService
-from thumnbnail_threading import ThumbnailMakerService
+# from thumnbnail_threading import ThumbnailMakerService
+from thumbnail_queue import ThumbnailMakerService
 
 IMG_URLS = \
     ['https://dl.dropboxusercontent.com/s/2fu69d8lfesbhru/pexels-photo-48603.jpeg',
